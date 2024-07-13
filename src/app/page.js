@@ -1,6 +1,7 @@
 import Image from "next/image";
 import classNames from "classnames";
 import Footer from "@/components/Footer";
+import Sister from "@/components/Sister";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
         <p>info@thesycamoresf.com</p>
         <p>Free WiFi</p> <p>Call us to make a reservation</p>
       </div>
+      <Sister />
       <Footer />
     </main>
   );
