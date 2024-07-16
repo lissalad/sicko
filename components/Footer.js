@@ -6,13 +6,13 @@ export default function Footer() {
   return (
     <div
       className={classNames(
-        "bg-orange-700 text-orange-200 py-4 px-2 w-full bottom-0 flex flex-col items-center space-y-4"
+        "bg-orange-900 text-orange-100 py-6 px-2 w-full bottom-0 flex flex-col items-center space-y-6 mt-[800px]"
       )}
     >
       <div className="text-center text-orange-950 text-xs">
-        <p>2140 Mission St, San Francisco, CA 94110</p>
+        <p className="mb-4">2140 Mission St, San Francisco, CA 94110</p>
         <p>Call for reservations (415) 252-7704</p>
-        <p>Email us! info@thesycamoresf.com</p>
+        <p>info@thesycamoresf.com</p>
       </div>
       <div className={classNames("flex flex-row space-x-2")}>
         <FacebookIcon />

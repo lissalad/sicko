@@ -4,33 +4,56 @@ import classNames from "classnames";
 
 export default function Home() {
   return (
-    <div className="text-center text-orange-950 text-sm flex flex-col items-center justify-center space-y-6">
+    <div className="">
       <div
-        className={classNames(
-          "flex flex-col items-center space-y-3 p-2",
-          "md:flex-row md:space-y-0 md:space-x-4"
+        classNames={classNames(
+          "flex flex-col items-center text-center",
+          "md:flex md:flex-row"
         )}
       >
-        <Image
-          src="/images/syc-logo.png"
-          height={100}
-          width={300}
-          alt="outside the bar"
-        />
-        <p
-          className={classNames("text-xl px-3", "md:text-4xl md:max-w-[500px]")}
+        <div
+          class={classNames(
+            "h-[440px] overflow-hidden relative",
+            "md:h-[550px]"
+          )}
         >
-          Come on in and enjoy our awesome food and selection of wine, beer, and
-          ciders!
-        </p>
-      </div>
+          <img
+            src="/images/tap-handles.jpg"
+            alt="Description of the image"
+            class="w-full h-full object-cover object-right"
+          />
+        </div>
 
-      <div className={classNames("text-center flex flex-col")}>
-        <p>Hours:</p>
-        <p>Monday to Friday: Noon - Midnight (or later)</p>
-        <p>Saturday & Sunday Brunch: 10am - Midnight (or later)</p>
+        {/* <div
+          className={classNames("flex flex-col items-center", "md:flex-row")}
+        >
+          <p
+            className={classNames(
+              "text-2xl text-orange-900 text-center",
+              "md:text-4xl md:mx-12 md:max-w-[700px] md:text-left md:mt-10"
+            )}
+          >
+            Come on in and enjoy our awesome food and selection of wine, beer,
+            and ciders!
+          </p>
+          <div
+            className={classNames(
+              "text-center flex flex-col text-orange-900 text-sm mt-8 border-2 py-5 px-4 border-orange-700 m-1 bg-orange-200/20 w-fit space-y-3",
+              ""
+            )}
+          >
+            <p className="font-semibold mb-2">Hours</p>
+            <div>
+              <p>Monday to Friday</p>
+              <p> 12pm - Midnight (or later)</p>
+            </div>
+            <div>
+              <p>Weekend Brunch: 10am </p>
+              <p>Midnight (or later)</p>
+            </div>
+          </div>
+        </div> */}
       </div>
-
       {/* <Link href="/food-menu">
           <p className={classNames("text-lg hover:text-orange-400")}>food</p>
           </Link>

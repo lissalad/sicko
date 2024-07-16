@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Header />
-      <main className="md:mt-10 md:px-8 m-2">
+      <main className="">
         <Component {...pageProps} />
       </main>
       <Footer />
