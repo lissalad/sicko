@@ -1,5 +1,5 @@
 {
-  "name": "sicko-more",
+  "name": "template",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "classnames": "^2.5.1",
-    "next": "14.2.5",
-    "react": "^18",
-    "react-dom": "^18"
+    "classnames": "^2.3.2",
+    "next": "^13.0.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.19",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.5",
-    "postcss": "^8.4.39",
-    "tailwindcss": "^3.4.4"
+    "autoprefixer": "^10.4.12",
+    "eslint": "8.25.0",
+    "eslint-config-next": "13.0.5",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.1.8"
   }
 }
